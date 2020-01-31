@@ -1,0 +1,70 @@
+
+.data-table{
+    text-align: center;
+    margin: 0 2% 10% 2%;
+}
+
+.tableWrapper {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.tableWrapper > .data-table {
+
+    position: absolute;
+    pointer-events:none;
+}
+
+
+
+tfoot{
+    align-items: center;
+}
+tfoot input {
+
+    box-sizing: border-box;
+    text-align: center;
+    display: inline;
+    width: 80%;
+    font-size: 10px;
+
+
+}
+tfoot input::placeholder{
+    justify-content: space-between;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
+tr td {
+    font-weight: bold;
+    background-color: #C6F7C6;
+}
+tr td:nth-child(even) {
+    background-color: #F7F7F7;
+
+}
+
+thead{
+    background-color: #87C540;
+
+}
+.total-land-urea{
+    margin: 0% 3%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+
+@media(max-width: 1000px)
+{
+   .tableAreaWrapper {
+      overflow-x: scroll;
+  }
+
+}

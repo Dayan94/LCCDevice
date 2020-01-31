@@ -1,0 +1,549 @@
+{
+   "plus_code" : {
+      "compound_code" : "WV63+CW Sylhet, Bangladesh",
+      "global_code" : "7MPHWV63+CW"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet - Sunamganj Highway",
+               "short_name" : "Sylhet - Sunamganj Highway",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Pathantula",
+               "short_name" : "Pathantula",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet - Sunamganj Hwy, Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9110609,
+                  "lng" : 91.85488319999999
+               },
+               "southwest" : {
+                  "lat" : 24.9110567,
+                  "lng" : 91.85474239999999
+               }
+            },
+            "location" : {
+               "lat" : 24.9110588,
+               "lng" : 91.85481279999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9124077802915,
+                  "lng" : 91.8561617802915
+               },
+               "southwest" : {
+                  "lat" : 24.9097098197085,
+                  "lng" : 91.85346381970848
+               }
+            }
+         },
+         "place_id" : "ChIJL28kyT5VUDcRhsLL-KlkJ0w",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jalalabad",
+               "short_name" : "Jalalabad",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Jalalabad, Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9142394,
+                  "lng" : 91.8664526
+               },
+               "southwest" : {
+                  "lat" : 24.9059292,
+                  "lng" : 91.8537391
+               }
+            },
+            "location" : {
+               "lat" : 24.9089724,
+               "lng" : 91.86232099999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9142394,
+                  "lng" : 91.8664526
+               },
+               "southwest" : {
+                  "lat" : 24.9059292,
+                  "lng" : 91.8537391
+               }
+            }
+         },
+         "place_id" : "ChIJ2wCbjjxVUDcRRLIGYqV1Cw8",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pathantula",
+               "short_name" : "Pathantula",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Pathantula, Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9171778,
+                  "lng" : 91.8574297
+               },
+               "southwest" : {
+                  "lat" : 24.9058418,
+                  "lng" : 91.8426453
+               }
+            },
+            "location" : {
+               "lat" : 24.9120891,
+               "lng" : 91.8501234
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9171778,
+                  "lng" : 91.8574297
+               },
+               "southwest" : {
+                  "lat" : 24.9058418,
+                  "lng" : 91.8426453
+               }
+            }
+         },
+         "place_id" : "ChIJi8i5o0FVUDcRoRm3WIpMDro",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Baghbari (Part)",
+               "short_name" : "Baghbari (Part)",
+               "types" : [ "administrative_area_level_5", "political" ]
+            },
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Baghbari (Part), Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9189543,
+                  "lng" : 91.8674911
+               },
+               "southwest" : {
+                  "lat" : 24.8879147,
+                  "lng" : 91.83433459999999
+               }
+            },
+            "location" : {
+               "lat" : 24.9076556,
+               "lng" : 91.8489038
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9189543,
+                  "lng" : 91.8674911
+               },
+               "southwest" : {
+                  "lat" : 24.8879147,
+                  "lng" : 91.83433459999999
+               }
+            }
+         },
+         "place_id" : "ChIJ4YUOGUhVUDcRbBVKpNWHkDQ",
+         "types" : [ "administrative_area_level_5", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet Sma",
+               "short_name" : "Sylhet Sma",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet Sma, Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9259729,
+                  "lng" : 91.902114
+               },
+               "southwest" : {
+                  "lat" : 24.8689208,
+                  "lng" : 91.8322524
+               }
+            },
+            "location" : {
+               "lat" : 24.8985469,
+               "lng" : 91.8659809
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9259729,
+                  "lng" : 91.902114
+               },
+               "southwest" : {
+                  "lat" : 24.8689208,
+                  "lng" : 91.8322524
+               }
+            }
+         },
+         "place_id" : "ChIJzw786StVUDcRfpbGPBVwos0",
+         "types" : [ "administrative_area_level_4", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet",
+               "short_name" : "Sylhet",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9378139,
+                  "lng" : 91.9106771
+               },
+               "southwest" : {
+                  "lat" : 24.8617132,
+                  "lng" : 91.8112867
+               }
+            },
+            "location" : {
+               "lat" : 24.8949294,
+               "lng" : 91.8687063
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9378139,
+                  "lng" : 91.9106771
+               },
+               "southwest" : {
+                  "lat" : 24.8617132,
+                  "lng" : 91.8112867
+               }
+            }
+         },
+         "place_id" : "ChIJnzJw0tNUUDcRgnP2MTT5jvU",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet Sadar Upazila",
+               "short_name" : "Sylhet Sadar Upazila",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet Sadar Upazila, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0206064,
+                  "lng" : 92.01065349999999
+               },
+               "southwest" : {
+                  "lat" : 24.863067,
+                  "lng" : 91.6933459
+               }
+            },
+            "location" : {
+               "lat" : 24.9644467,
+               "lng" : 91.8123324
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0206064,
+                  "lng" : 92.01065349999999
+               },
+               "southwest" : {
+                  "lat" : 24.863067,
+                  "lng" : 91.6933459
+               }
+            }
+         },
+         "place_id" : "ChIJISo12TFVUDcR5xywscHU4mw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet District",
+               "short_name" : "Sylhet District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet District, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1901911,
+                  "lng" : 92.49923029999999
+               },
+               "southwest" : {
+                  "lat" : 24.5954114,
+                  "lng" : 91.6324106
+               }
+            },
+            "location" : {
+               "lat" : 24.8993357,
+               "lng" : 91.8700473
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1901911,
+                  "lng" : 92.49923029999999
+               },
+               "southwest" : {
+                  "lat" : 24.5954114,
+                  "lng" : 91.6324106
+               }
+            }
+         },
+         "place_id" : "ChIJDQGb0aO0UTcRTK16HuskzTA",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sylhet Division",
+               "short_name" : "Sylhet Division",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sylhet Division, Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.2084395,
+                  "lng" : 92.49923029999999
+               },
+               "southwest" : {
+                  "lat" : 23.9759817,
+                  "lng" : 90.92964380000001
+               }
+            },
+            "location" : {
+               "lat" : 24.7049811,
+               "lng" : 91.67606909999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.2084395,
+                  "lng" : 92.49923029999999
+               },
+               "southwest" : {
+                  "lat" : 23.9759817,
+                  "lng" : 90.92964380000001
+               }
+            }
+         },
+         "place_id" : "ChIJnzJw0tNUUDcRqXQ1C8Iab4Y",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bangladesh",
+               "short_name" : "BD",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bangladesh",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 26.633914,
+                  "lng" : 92.6801153
+               },
+               "southwest" : {
+                  "lat" : 20.3794,
+                  "lng" : 88.00861410000002
+               }
+            },
+            "location" : {
+               "lat" : 23.684994,
+               "lng" : 90.356331
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.633914,
+                  "lng" : 92.6801153
+               },
+               "southwest" : {
+                  "lat" : 20.3794,
+                  "lng" : 88.00861410000002
+               }
+            }
+         },
+         "place_id" : "ChIJp4vhgO2qrTARa_zhxOAoLQ8",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

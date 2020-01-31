@@ -1,0 +1,496 @@
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #FFF; z-index:9999;}
+
+body{
+  /*font-family:'Open-sans', sans-serif;*/
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+}
+
+img{
+  width:100%;
+}
+
+.about p, .container h1, .data-table h1, .wrapper, .selection-area, .selection-area select, #crop-selector-for-used, #crop-selector-for-color, #crop-selector-for-urea, #year-selector-for-used, #year-selector-for-color, #year-selector-for-urea, .analysis-part h1{
+  border-radius: 10px;
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: #33B5E5;
+  margin: 1% 0;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+  display: block;
+  /*background-color: white;*/
+  border-top: 2px 0 solid #33B5E5;
+
+}
+
+
+#crop-selector-for-used option, #crop-selector-for-color option, #crop-selector-for-urea option {
+  color: black;
+}
+.container{
+  margin:auto;
+}
+
+/* COMMON CLASSES */
+.primary-text{
+  color:#87C540;
+  
+}
+
+.primary-background{
+  background:#56a79a;
+}
+
+/* HEADER */
+#main-header{
+  border-bottom: 2px solid #56A79A;
+  /*padding-bottom: 10px;*/
+}
+
+/* NAVBAR */
+#navbar, #lcc-websites{
+  text-transform:uppercase;
+  
+}
+
+#lcc-websites{
+  transform: translate(-25%, 0);
+  padding-bottom: 20px;
+
+}
+#navbar {
+  border-radius: 10px;
+}
+
+#lcc-websites li{
+  display:inline;
+  padding: 1px 10px;
+  list-style:none;
+
+
+}
+
+#navbar a, #lcc-websites a, .selection-area select, #crop-selector-for-used option, #crop-selector-for-color option, #year-selector-for-used option, #year-selector-for-color option{
+  text-decoration:none;
+  background-color: white;
+  color:#888;
+  padding: 2px 4px;
+  border-radius: 10px; 
+  transition: padding 1.5s;
+  transition-timing-function: linear;
+  text-align: center;  
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+
+}
+#snackbar {
+  margin-left: 0px;
+  background-color: #33B5E5;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1vh .5vw;
+  position: fixed;
+  z-index: 1;
+  right: 2px;
+  top: 80px;
+  font-size: 17px;
+}
+
+@-webkit-keyframes fadein {
+  from {top: 0; opacity: 0;} 
+  to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {top: 0; opacity: 0;}
+  to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {top: 30px; opacity: 1;} 
+  to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {top: 30px; opacity: 1;}
+  to {top: 0; opacity: 0;}
+}
+
+.selection-area{
+  color: black;
+  margin: 0 2%;
+}
+label{
+  display: block;
+}
+
+.selection-area{
+  display: inline-flex;
+}
+.selection-area span{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#navbar a:hover, #lcc-websites a:hover{
+  color:#56a79a;
+  border: 3px solid white;
+  box-shadow: 0 2px 10px rgba(141, 207, 0, 0.8); 
+  border-radius: 15px;
+}
+#navbar ul li.current a {
+  color: white;
+  background-color: #8DCF00;
+  box-shadow: 0 8px 20px rgba(141, 207, 0, 0.8); 
+  border-radius: 15px;
+}
+
+#nav_list_for_all {
+  padding-top: 4px;
+  background: #4A4A4A;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  align-self: center;
+
+}
+#nav_list_for_all a{
+  margin: 2px 10px;
+}
+
+/* SHOWCASE */
+#showcase{
+  background:url('../images/lcc2.jpg') no-repeat center center;
+  border-bottom:1px solid #56a79a;
+  margin-bottom:30px;
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+}
+
+#showcase p{
+  color:#ccc;
+  margin:0;
+}
+
+#showcase .showcase-content{
+  background:#333;
+  color:#fff;
+  border-radius:90px;
+  padding:40px;
+  opacity:0.9;
+}
+
+/* FEATURES */
+#features h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#features .fa, #features .fas{
+  font-size:60px;
+  color:#56a79a;
+}
+
+/* INFO */
+#info{
+  background:#333 url('../images/info-bg.jpg') no-repeat;
+  color:#fff;
+}
+
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+  padding-top: 20px;
+}
+
+#info ul{
+  list-style:none;
+  padding:0;
+}
+
+#info li{
+  line-height:2em;
+  font-size:20px;
+}
+
+/* COMPANY */
+#company{
+  background:#333;
+  color:#fff;
+  padding:10px 0;
+}
+
+#company h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+}
+
+#company ul{
+  padding:0;
+  list-style:none;
+  line-height:2em;
+
+}
+#company ul li {
+  font-size: 14px;
+}
+
+#dayan {
+  width: 27%;
+  height: 40%;
+  float: right;
+  float: bottom;
+  padding-right: 3%;
+}
+#hasan {
+  width: 27%;
+  height: 40%;
+  float: right;
+  float: bottom;
+  padding-right: 3%;
+}
+#ashik-sir {
+  width: 25%;
+  height: 35%;
+  float: right;
+  float: bottom;
+  padding-right: 3%;
+}
+/*#company input[type="text"]{
+  padding:7px;
+}
+
+#company button{
+  background:#222;
+  color:#fff;
+  padding:10px;
+  border:0;
+  }*/
+
+  /* FOOTER */
+  #main-footer{
+    background:#56a79a;
+    color:#fff;
+  }
+
+  /* PAGE */
+  #page{
+    margin-bottom:40px;
+  }
+
+  /* SERVICES */
+  .services ul li{
+    list-style:none;
+    padding:10px;
+  }
+
+  .services ul li:nth-child(odd){
+    background:#333;
+    color:#fff;
+  }
+
+  .services ul li:nth-child(even){
+    background:#56a79a;
+    color:#fff;
+  }
+
+  #subheader{
+    text-align: center;
+  }
+
+  .about p {
+    /*text-align: justify;*/
+    /*background-color: #56A79A;*/
+    border-radius: 10px;
+    padding: 5px 10px;
+
+  }
+  .about-paragraph-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, 0%);
+  }
+
+  /* CONTACT */
+
+  #contact-icon {
+    float: right;
+    width: 40%;
+    height: 30%;   
+    margin: 5%;
+  }
+
+  #contact-form-fillup {
+    background:#333;
+    color:#fff;
+    padding:20px;
+    border-radius: 30px;
+    height: 80%;
+    font-size: 15px;
+  }
+
+  #contact-form-fillup  input[type="text"]{
+    width:50%;
+    height:30px;
+    margin-bottom:10px;
+
+  }
+
+  #contact-form-fillup  textarea{
+    width:100%;
+    height:100px;
+  }
+
+  #contact-form-fillup  button{
+    width:50%;
+    padding:10px 0;
+    border:0;
+    background:#222;
+    color:#fff;
+  }
+
+  #contact-form-fillup  label{
+    text-transform:uppercase;
+  }
+
+  .md-form label {
+    transform: translateY(-100%);
+  }
+
+  #back2Top {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+
+  }
+  #back2Top:hover {
+    background-color: #56A79A;
+    color: #000;*/
+  }
+
+  .analysis-part{
+    text-align: center;
+  }
+
+  .chart-container{
+    align-items: center;
+    height: 40%;
+    
+  }
+  .chartWrapper{
+    position: relative;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .chartWrapper > canvas{
+
+    position: absolute;
+    pointer-events:none;
+    padding-bottom: 50px;
+  }
+
+  .chartAreaWrapper {
+    overflow-x: scroll;
+    padding-bottom: 50px
+  }
+
+  .alert{
+    text-align: center;
+  }
+  .btn-table {
+   box-shadow: 0 6px 15px rgba(255, 51, 35, 0.3);
+   background-color: green;
+ }
+
+ /* MEDIA QUERIES */
+ @media(max-width:1000px){
+
+
+  .chartAreaWrapper {
+    width: 900px;
+  }
+
+  #lcc-websites ul {
+    left: 20%;
+    transform: translate(20%, 0%);
+    font-size: 12px;      
+  }
+
+}
+
+@media(max-width:800px){
+  .selection-area{
+    display: block;
+  }
+  #showcase h1{
+    font-size:30px;
+  }
+
+  #lcc-websites li a{
+    /*display: inline-block;*/
+    box-shadow: 0 2px 10px; 
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  #lcc-websites ul {
+    left: 20%;
+    transform: translate(20%, 0%);
+    font-size: 12px;      
+  }
+}
+
+@media(max-width:500px){
+ #lcc-websites li a{
+  display: block;
+  margin: 10px;
+  box-shadow: 0 5px 10px; 
+
+}
+#lcc-websites ul {
+  left: 40%;
+  transform: translate(25%, 0%);
+  font-size: 13px;
+}
+
+#showcase .showcase-content{
+  padding:40px 10px;
+}
+
+}
